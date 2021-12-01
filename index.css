@@ -1,0 +1,36 @@
+body {
+  background-color: aquamarine;
+}
+
+h1 {
+  border: 4px dashed black;
+  color: hsl(251, 100%, 50%);
+  display: inline-flex;
+  margin: 10px;
+}
+
+.container1 {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-evenly;
+  padding: 20px;
+  border: 5px solid rgb(197, 185, 23);
+  border-radius: 8px;
+}
+
+.introParagraph {
+  color: rgb(111, 0, 255);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 1.5em;
+}
+
+.equipment {
+  background-color: yellow;
+  font-style: italic;
+  border: red solid 2px;
+}
+
+.irons {
+  background-color: #00ff55;
+}
