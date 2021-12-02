@@ -1,12 +1,32 @@
 body {
-  background-color: aquamarine;
+  background-color: rgb(0, 29, 61);
+  color: white;
+}
+.titleBar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.rightSide {
+  display: flex;
+  margin-right: 50px;
+  font-size: 1.5em;
+  color: rgb(0, 93, 136);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.rightSide > div {
+  margin-right: 10px;
 }
 
 h1 {
-  border: 4px dashed black;
-  color: hsl(251, 100%, 50%);
   display: inline-flex;
   margin: 10px;
+}
+
+h2 {
+  text-align: center;
 }
 
 .container1 {
@@ -14,23 +34,30 @@ h1 {
   flex-flow: row;
   justify-content: space-evenly;
   padding: 20px;
-  border: 5px solid rgb(197, 185, 23);
+  border: 5px solid rgb(255, 255, 255);
+  background-color: rgb(0, 148, 216);
   border-radius: 8px;
 }
 
 .introParagraph {
-  color: rgb(111, 0, 255);
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   font-size: 1.5em;
 }
 
 .equipment {
-  background-color: yellow;
+  display: flex;
+  justify-content: space-evenly;
   font-style: italic;
-  border: red solid 2px;
+  background-color: rgb(0, 148, 216);
+  font-size: 1.5em;
+  border: 5px solid rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 8px;
 }
 
-.irons {
-  background-color: #00ff55;
+.clubsVideo {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
 }
